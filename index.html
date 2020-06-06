@@ -3,19 +3,100 @@
 
 <head>
     <title>Mission Boot Camp</title>
-    <div w3-include-html="content.html"></div>
+    <div w3-include-html="include/nav.html"></div>
     <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="include/my_css.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-<body>
+<body class="body">
 
 
-    <h1>This is a Heading</h1>
-    <p>This is a paragraph.</p>
+    
+
+    <div class="container mycontainer">
+        <div class="row">
+            <div class="col-9">
+                <div class="card" style="width: 100%;">
+                    <img src="images/ultimate.jpg" class="card-img-top" alt="...">
+                    <div class="card-body" id="ultimate">
+                      <h5 class="card-title">The Ultimate Guide to Product Marketing in 2020</h5>
+                      <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                      <small>SALES | 13 MIN READ</small>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-3">
+                <div w3-include-html="include/sidebar.html"></div>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="midarea">
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card" style="width: 100%">
+                    <a href="#">
+                        <img src="images/free.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">19 Free Advertising Tips for Your Small, Large, or Local Business</h5>
+                      <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                    </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card" style="width: 100%">
+                    <a href="#">
+                        <img src="images/bayesian.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Bayesian A/B Testing: A More Calculated Approach to A/B Test</h5>
+                      <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                    </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card bg-dark text-white" id="sidebarbutton">
+                    <img src="images/bg.png" class="card-img" alt="..." style="height: 335px;">
+                    <div class="card-img-overlay">
+                      <h1 class="card-title">Subscribe to Our Blog</h1>
+                      <p class="card-text">Stay up to date with the latest marketing, sales, and service tips and news.</p>
+                      <button type="button" class="btn btn-outline-danger" style="width: 300px; color: white; border-color: white; font-weight: bold;">Subscribe via Eamil</button>
+                    
+                      <button type="button" class="btn btn-outline-danger" style="width: 300px; color: white; border-color: white; font-weight: bold; margin-top: 15px;">Subscribe via Slack</button>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid" id="myfooter">
+        <div class="row">
+            <div class="col-6" >
+                <div class="card-footer">
+                    Mission Boot Camp &copy; 2020 
+                </div>
+            </div>
+            <div class="col-6" >
+                <div class="card-footer" style="text-align: right;">
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-youtube"></i>
+                    <i class="fa fa-linkedin"></i>
+                    <i class="fa fa-slack"></i>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="bootstrap/js/jquery-3.5.1.slim.min.js"></script>
     <script src="bootstrap/js/popper.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="include/js/inc_js.js"></script>
 
 </body>
 

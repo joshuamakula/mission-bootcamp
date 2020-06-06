@@ -1,0 +1,35 @@
+.mycontainer{
+    margin-top: 10px;
+}
+
+#mynavitem{
+    background-color: rgb(234, 240, 246);
+    margin-top: 15px;
+    
+}
+#mynavtitle{
+    background-color: rgb(255,122,89);
+    padding: 5px;
+    color: white;
+}
+#sidebarlink{
+    font-size: 14px;
+}
+#ultimate{
+    background-color: rgb(234, 240, 246);
+}
+#midarea{
+    margin-top: 15px;
+}
+#sidebarbutton{
+    text-align: center;
+}
+#sidebarbutton:hover{
+    color:black;
+    background-color: white;
+    border-color:#fff;
+}
+#myfooter{
+    background-color: rgb(51,71,91);
+    color: rgb(203,214,226);
+}
